@@ -1,0 +1,17 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "ingredients": "spaghetti, eggs, parmesan cheese, pancetta, black pepper",
+        "instructions": "Cook spaghetti. In a bowl, mix eggs and cheese. Fry pancetta. Combine all with pepper."
+      },
+      {
+        "id": 2,
+        "title": "Chicken Tikka Masala",
+        "ingredients": "chicken, yogurt, spices, tomato sauce, cream",
+        "instructions": "Marinate chicken in yogurt and spices. Cook with tomato sauce and cream."
+      }
+    ]
+  }
+  

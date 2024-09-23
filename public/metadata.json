@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "type": "Heading",
+      "props": {
+        "text": "Personalized Recipe Manager"
+      }
+    },
+    {
+      "type": "GenericForm",
+      "props": {
+        "formFields": [
+          { "label": "Title", "name": "title", "type": "text" },
+          { "label": "Ingredients", "name": "ingredients", "type": "textarea" },
+          { "label": "Instructions", "name": "instructions", "type": "textarea" }
+        ],
+        "submitAction": "addItem"
+      }
+    },
+    {
+      "type": "GenericList",
+      "props": {
+        "dataFetch": "/recipes.json"
+      }
+    }
+  ]
+}
